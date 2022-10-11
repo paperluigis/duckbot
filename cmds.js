@@ -4,7 +4,6 @@ const he = require("he");
 const ansihtml = require('ansi-html');
 const fetch = require("node-fetch")
 const FormData = require("form-data");
-const AviGlitch = require("aviglitch")
 const Jimp = require('jimp');
 const { spawnSync, spawn } = require("child_process")
 const { SocksProxyAgent } = require("socks-proxy-agent");
@@ -51,7 +50,6 @@ Commands (26 total: 25 available, 1 admin):
  ├─ ${cfg.prefix}urban            urbanup some text
  │  <b>Videos</b>
  ├─ ${cfg.prefix}lowbit           duckify your videos
- ├─ ${cfg.prefix}h264duck         Ducks your MP4/AVI videos :duck:
  │  <b>Images</b>
  ├─ ${cfg.prefix}duck             random duck!
  ├─ ${cfg.prefix}jimp             see ${cfg.prefix}jimp help

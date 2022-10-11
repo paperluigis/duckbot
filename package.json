@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "ansi-html": "^0.0.9",
-    "aviglitch": "^0.3.1",
     "basic-ftp": "^4.6.6",
     "form-data": "^4.0.0",
     "he": "^1.2.0",
@@ -9,7 +8,6 @@
     "mathjs": "^10.4.3",
     "minimist-string": "^1.0.1",
     "node-fetch": "^2.6.7",
-    "node-pty": "^0.10.1",
     "socket.io-client": "^2.4.0",
     "socks-proxy-agent": "^6.2.0",
     "ytdl-core": "^4.11.0"
