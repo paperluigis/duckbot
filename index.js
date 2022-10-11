@@ -264,18 +264,18 @@ socket.on("message", function (data) {
 
 
 
-setInterval(() => { // keep sus repls alive
-    console.log('');
-    for(let k of Object.keys(cfg.replitkeepalive)) {
-        fetch(cfg.replitkeepalive[k]).then(e=>{
-        if(!e.ok){
-            console.log("[repl_keepalive] pinging "+k+" failed ("+e.status+" "+e.statusText+")")
-        } else {
-            console.log("[repl_keepalive] pinging "+k+" succeeded ("+e.status+" "+e.statusText+")")
-        }
-    }).catch(e=>{console.log("[repl_keepalive] pinging "+k+" failed")});
-    }
-}, 30000)
+// setInterval(() => { // keep sus repls alive
+//     console.log('');
+//     for(let k of Object.keys(cfg.replitkeepalive)) {
+//         fetch(cfg.replitkeepalive[k]).then(e=>{
+//         if(!e.ok){
+//             console.log("[repl_keepalive] pinging "+k+" failed ("+e.status+" "+e.statusText+")")
+//         } else {
+//             console.log("[repl_keepalive] pinging "+k+" succeeded ("+e.status+" "+e.statusText+")")
+//         }
+//     }).catch(e=>{console.log("[repl_keepalive] pinging "+k+" failed")});
+//     }
+// }, 30000)
 
 
 
